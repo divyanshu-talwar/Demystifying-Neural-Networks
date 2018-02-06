@@ -1,0 +1,16 @@
+Accuracies:
+1. mnist subset
+model										- accuracy(test)
+_________________________________________________________________________
+trained_sigmoid 							- 99.6070
+trained_relu_softmax			 			- 99.8421
+trained_maxout_softmax						- 97.5442
+sklearn 									- 98.5966
+
+2. entire mnist
+model										- accuracy(test)
+_________________________________________________________________________
+trained_sigmoid_softmax						- 96.3771
+trained_relu_softmax			 			- 99.5214
+trained_maxout_softmax						- 94.9428
+sklearn 									- 94.9942
