@@ -1,4 +1,4 @@
-# Understanding Neural Networks
+# Demystifying Neural Networks
 
 ## About
 A self implementation of `Forward-Pass` and `Backpropagation` - used to train a neural network - to get a better understanding of the same.
@@ -52,6 +52,3 @@ The self implemented models were tested by comparing their performance on - MNIS
 
 	* MaxOut (MNIST) -
 `python test_maxout_self.py --data none --weights_save_dir ./pickled-weights/weights_large_maxout_self.pkl --bias_save_dir ./pickled-weights/bias_large_maxout_self.pkl  --hidden_layer 100 50 --softmax_bool True`
-
-## Author
-* Divyanshu Talwar
